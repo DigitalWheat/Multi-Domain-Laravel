@@ -1,0 +1,42 @@
+body{background-color: $body-bg;padding-bottom:$main-sidebar-height;}
+body.is-second-sidebar{padding-bottom:165px;}
+body.is-no-margin{margin-left: 0px;padding-bottom: 0px;}
+
+a{
+  transition: $transition;
+  color: $link-color;
+}
+
+a:hover{
+  color: $link-hover-color;
+  text-decoration: none;
+}
+
+.dropdown-image{
+  img{
+    border-radius: 50%;
+    max-height: 32px;
+  }
+
+}
+.navbar-nav .nav-link {
+  padding-top: 0;
+  padding-bottom: 0;
+  height: 50px;
+  line-height: 50px;
+}
+
+
+.page-header{
+  .page-title{
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+  margin-bottom:20px;
+}
+
+
+@media (min-width: 992px) {
+  body{margin-left: 125px;padding-bottom: 0px;}
+  body.is-second-sidebar{margin-left: 500px;padding-bottom:0px;}
+}

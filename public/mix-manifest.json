@@ -1,0 +1,10 @@
+{
+    "/app/js/app.js": "/app/js/app.js",
+    "/app/css/app.css": "/app/css/app.css",
+    "/shop/css/app.css": "/shop/css/app.css",
+    "/shop/admin/css/app.css": "/shop/admin/css/app.css",
+    "/app_admin/css/app.css": "/app_admin/css/app.css",
+    "/shop/js/app.js": "/shop/js/app.js",
+    "/shop/admin/js/app.js": "/shop/admin/js/app.js",
+    "/app_admin/js/app.js": "/app_admin/js/app.js"
+}
